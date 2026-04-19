@@ -81,7 +81,7 @@ script_prompt = """
 
 ### Output
 ตอบกลับเป็น JSON object รูปแบบเดียวเท่านั้น:
-{"script": "SELECT ... FROM ..."}
+{{"script": "SELECT ... FROM ..."}}
 
 (ห้ามมีคำอธิบายประกอบ หรือ Markdown นอกเหนือจาก JSON)
 """
